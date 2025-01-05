@@ -1,0 +1,69 @@
+<% layout("layouts/boilerplate")%>
+
+    <body>
+
+
+        <div class="row">
+            <div class="col-8 offset-2">
+
+                <h1>Edit your Listing</h1>
+
+                <form action="" method="" novalidate class="needs-validation">
+
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" name="listing[title]" value=" " class="form-control" required>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">description</label>
+                        <input type="text" name="listing[description]" value=""
+                            class="form-control" required>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 ">
+                            <div class="mb-3">
+                                <label for="price" class="form-label">price</label>
+                                <input type="number" name="listing[price]" value=""
+                                    class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col-8 ">
+                            <div class="mb-3">
+
+                                <label for="country" class="form-label">country</label>
+
+                                <input type="text" name="listing[country]" id="" value=""
+                                    class="form-control" required>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="mb-3">
+                        <label for="url" class="form-label">url</label>
+                        <input type="text" name="listing[url]" value="" class="form-control"required >
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="location" class="form-label">location</label>
+
+                        <input type="text" name="listing[location]" value="" class="form-control" required>
+
+                    </div>
+
+
+
+
+                    <button class="btn btn-dark edit-btn">Edit</button>
+                </form>
+
+            </div>
+        </div>
+
+    </body>
